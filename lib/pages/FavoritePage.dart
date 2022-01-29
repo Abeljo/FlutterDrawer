@@ -17,7 +17,7 @@ class FavoritePage extends StatelessWidget {
             centerTitle: true,
           ),
           body: Center(
-            child: Text('Favorite items list page'),
+            child: Text('Favorite items list page\n💓💓💓💓💓💓💓'),
           ),
           drawer: NavigationDrawerWdiget(),
         ));

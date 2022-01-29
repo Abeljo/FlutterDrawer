@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Drawer',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -35,6 +35,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Drawer Lesson'),
+        centerTitle: true,
+      ),
+      body: Center(
+        child: Text(
+            'Drawer lesson \nOpen drawer and see how the routing works\n:)'),
       ),
       drawer: NavigationDrawerWdiget(),
     );

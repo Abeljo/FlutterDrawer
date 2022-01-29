@@ -42,7 +42,7 @@ class NavigationDrawerWdiget extends StatelessWidget {
               onClicked: () => selectedItem(context, 3),
             ),
             const SizedBox(height: 20),
-            Divider(color: Colors.white),
+            Divider(color: Colors.black),
             const SizedBox(height: 20),
             const SizedBox(height: 40),
             buildMenuItem(
